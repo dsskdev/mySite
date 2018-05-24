@@ -3,5 +3,9 @@ $(document).ready(function(){
         closeOnClick: true
     });
     //$('.parallax').parallax();
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.carousel.carousel-slider').carousel({
+        duration: 300,
+        fullWidth: true,
+        indicators: true
+    });
 });
